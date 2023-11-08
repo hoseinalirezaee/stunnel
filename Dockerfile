@@ -1,6 +1,6 @@
 FROM ubuntu:22.04 AS builder
 
-ARG VERSION=5.69
+ARG VERSION=5.71
 
 RUN apt-get update && apt-get install -y \
     build-essential \
